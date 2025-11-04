@@ -18,7 +18,7 @@
 `poetry install -E "ztf sncosmo extcats notebook"`
 `poetry run ampel config build -out ampel_conf.yaml >& ampel_conf.log`
 If the installation stops due to missing package, you can continue installation without the package by setting -stop-on-errors=0
-`poetry run ampel config build -out ampel_conf.yaml >& ampel_conf.log -stop_on_errors=0`
+`poetry run ampel config build -out ampel_conf.yaml >& ampel_conf.log -stop-on-errors=0`
 
 1. Check the install by looking at the `ampel_conf.log` file in Ampel-HU-astro
 1.  It should list all the AMPEL componenets, missing packages (most likely you can work without these packages ) and end with something like `Total time required:7 minutes 27 seconds`. 
